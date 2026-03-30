@@ -27,10 +27,10 @@ jobs:
       - name: Run MLB bot
         env:
           SOURCE_URL: https://hochi.news/mlb/?kd_page=top
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          x4f82aqG8aKuD1S7AKZWp6Tmz: ${{ secrets.X_API_KEY }}
+          yoN37GSdid9pdH1OcAf7tOycDBIPiImhhK9HlMaIZhgW1hi1OH: ${{ secrets.X_API_SECRET }}
+          2038505634308538368-sx79mVykvcxEh2c2ur1qNIsL0yerq2: ${{ secrets.X_ACCESS_TOKEN }}
+          RXUpKwDAGfm0BiDInEadF1jL1jKgoTZ8xzc1Tt7Fb8Afi: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           LOG_LEVEL: INFO
         run: python bot.py
 
